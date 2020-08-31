@@ -186,7 +186,7 @@ async def approvepm(apprvpm):
         await apprvpm.edit("`User may already be approved.`")
         return
 
-    await apprvpm.edit(f"[{name0}](tg://user?id={uid}) `approved to PM!`")
+    await apprvpm.edit(f"[{name0}](tg://user?id={uid}) `Sedang Transaksi!`")
 
     async for message in apprvpm.client.iter_messages(apprvpm.chat_id,
                                                       from_user='me',
@@ -196,7 +196,7 @@ async def approvepm(apprvpm):
     if BOTLOG:
         await apprvpm.client.send_message(
             BOTLOG_CHATID,
-            "#Sedang Ngewe Dgn\n" + "User: " + f"[{name0}](tg://user?id={uid})",
+            "#Sedang Transaksi Dgn\n" + "User: " + f"[{name0}](tg://user?id={uid})",
         )
 
 
@@ -220,13 +220,13 @@ async def disapprovepm(disapprvpm):
         name0 = str(aname.first_name)
 
     await disapprvpm.edit(
-        f"[{name0}](tg://user?id={disapprvpm.chat_id}) `Disaproved to PM!`")
+        f"[{name0}](tg://user?id={disapprvpm.chat_id}) `Transaksi Selesai!`")
 
     if BOTLOG:
         await disapprvpm.client.send_message(
             BOTLOG_CHATID,
             f"[{name0}](tg://user?id={disapprvpm.chat_id})"
-            " Ngewe Slesai.",
+            " Transaksi Slesai Boss.",
         )
 
 
