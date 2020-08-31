@@ -196,7 +196,7 @@ async def approvepm(apprvpm):
     if BOTLOG:
         await apprvpm.client.send_message(
             BOTLOG_CHATID,
-            "#APPROVED\n" + "User: " + f"[{name0}](tg://user?id={uid})",
+            "#Sedang Ngewe Dgn\n" + "User: " + f"[{name0}](tg://user?id={uid})",
         )
 
 
@@ -226,7 +226,7 @@ async def disapprovepm(disapprvpm):
         await disapprvpm.client.send_message(
             BOTLOG_CHATID,
             f"[{name0}](tg://user?id={disapprvpm.chat_id})"
-            " was disapproved to PM you.",
+            " Ngewe Slesai.",
         )
 
 
