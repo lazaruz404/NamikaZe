@@ -281,11 +281,11 @@ async def typewriter(typew):
 
 
 # Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.harga(?: |$)(.*)')
+@register(outgoing=True, pattern='^.listweb(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`UPDATE HARGA HARI INI` \n\nDOMAIN : 100.000 (Bisa Request Nama Web)\nDOMAIN : 50.000 (Tidak bisa request nama web)\nSUBDOMAIN : 20.000 (SELAIN PULSA) \nSUBDOMAIN : 25.000 (Via Pulsa) \n\nBot By : [#JefanyaBot](t.me/JejakCheat)")
+	await typew.edit("`UPDATE HARGA HARI INI` \n\nDOMAIN : 120.000 (Bisa Request Nama Web)\nDOMAIN : 70.000 (Tidak bisa request nama web)\nSUBDOMAIN : 20.000 (SELAIN PULSA) \nSUBDOMAIN : 30.000 (Via Pulsa) \n\nBot By : [#BangDessBot](t.me/JejakCheat)")
 
 
 # Create by myself @JejakCheat
