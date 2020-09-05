@@ -5,48 +5,18 @@ from time import sleep
 from userbot import CMD_HELP
 from userbot.events import register
 
-@register(outgoing=True, pattern='^.price(?: |$)(.*)')
+@register(outgoing=True, pattern='^.listlive(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("LIST HARGA **ABU•STORE**\n"
-			 f"=========================\n"
-			 f"WEB PHISING (1 BULAN)\n"
-			 f"\n"
-			 f"DOMAIN : 100.000 \n"
-			 f"SUBDOMAIN : 20.000 \n"
-			 f"*FREE CHECK TRACK DELIVERY\n"
-			 f"=========================\n"
-			 f"WHM\n"
-			 f"\n"
-			 f"MINI : 30.000\n"
-			 f"MEDIUM : 40.000\n"
-			 f"EXTRA : 50.000\n"
-			 f"SUPER : 60.000\n"
-			 f"=========================\n"
-			 f"MWHM\n"
-			 f"\n"
-			 f"MINI : 80.000\n"
-			 f"MEDIUM : 100.000\n"
-			 f"EXTRA : 120.000\n"
-			 f"SUPER : 150.000\n"
+	await typew.edit("LIST HARGA **dessstore**\n"
 			 f"=========================\n"
 			 f"LIVE RESULT\n"
 			 f"\n"
 			 f"50+ RESULT : 200.000\n"
 			 f"99+ RESULT : 400.000\n"
 			 f"=========================\n"
-			 f"TWITTER\n"
-			 f"\n"
-			 f"50 RESULT : 200.000\n"
-			 f"100 RESULT : 400.000\n"
-			 f"=========================\n"
-			 f"TWITTER\n"
-			 f"\n"
-			 f"1 AKUN : 5.000\n"
-			 f"12 AKUN : 50.000\n"
-			 f"=========================\n"
-			 f"@Abucuyy")
+			 f"@dess21")
 
 
 @register(outgoing=True, pattern='^.unredflag(?: |$)(.*)')
