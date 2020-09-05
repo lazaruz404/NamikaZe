@@ -200,7 +200,7 @@ async def approvepm(apprvpm):
         )
 
 
-@register(outgoing=True, pattern="^.trx$")
+@register(outgoing=True, pattern="^.trk$")
 async def disapprovepm(disapprvpm):
     try:
         from userbot.modules.sql_helper.pm_permit_sql import dissprove
