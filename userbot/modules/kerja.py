@@ -184,11 +184,11 @@ async def typewriter(typew):
 	await typew.edit("`Oh Ternyata Abu Masih sibuk... Tunggu sebentar nanti akan dibaca \n#AbucuyyBot`")
 
 # Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.on(?: |$)(.*)')
+@register(outgoing=True, pattern='^.n(?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`Apaan anj baru on gw, gelut??` \n[#ABU•STORE](t.me/abustoree")
+	await typew.edit("`Apaan anj baru on gw, gelut??` \n[#Abucuyy](t.me/abustoree")
 	
 	# Create by myself @JejakCheat
 	
