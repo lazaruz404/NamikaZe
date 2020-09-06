@@ -217,7 +217,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`OVO : `085101816853 `A/N LUSSY OKTAVIANI ` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#RexxaneBot](t.me/rexxpubgstore)")
+	await typew.edit("`OVO : `082239328650 `A/N MALIK ISLAMUDIN ` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#S͜͡ム卄尺工ㄥBot](t.me/meraukepubgstore)")
 
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.DANA(?: |$)(.*)')
@@ -239,7 +239,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`DANA : `085101816853` A/N MHD ZIKRI SARUMAHA` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#RexxaneBot](t.me/rexxpubgstore)")
+	await typew.edit("`DANA : `082399800748` A/N MHD FAUZI LBS` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#S͜͡ム卄尺工ㄥBot](t.me/meraukepubgstore)")
 
 
 # Create by myself @JejakCheat
