@@ -93,7 +93,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#UPDATE \n"
-                "ShinoaHiiragiBot Kamu Telah Diperbaharui")
+                "AbucuyyUcihaBot Kamu Telah Diperbaharui")
 
     else:
         await event.edit('`Please set up HEROKU_API_KEY variable.`')
@@ -112,7 +112,7 @@ async def update(event, repo, ups_rem, ac_br):
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID, "#UPDATE \n"
-            "ShinoaHiiragiBot Telah Berhasil Diperbaharui")
+            "AbucuyyUcihaBot Telah Berhasil Diperbaharui")
 
     # Spin a new instance of bot
     args = [sys.executable, "-m", "userbot"]
@@ -172,7 +172,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n`ShinoaHiiragiBot`  ** Terupdate**  `Dengan`  **{UPSTREAM_REPO_BRANCH}**\n')
+            f'\n`AbucuyyUcihaBot`  ** Terupdate**  `Dengan`  **{UPSTREAM_REPO_BRANCH}**\n')
         return repo.__del__()
 
     if conf is None and force_update is False:
