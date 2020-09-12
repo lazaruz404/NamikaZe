@@ -193,7 +193,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`BCA : `0901316839 `A/N PILU EFENDI` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#JefanyaBot](t.me/JejakCheat)")
+	await typew.edit("`BCA : `6910444130 `A/N 𝗚𝗨𝗡𝗔𝗗𝗜` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#B𝗮𝗻𝗴𝗔𝗚𝗨𝗡Bot](t.me/GARAGASTORE)")
 
 
 # Create by myself @JejakCheat
@@ -239,7 +239,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`DANA : `085369832684` A/N RODIAH` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#ShinobiBot](t.me/shinobiSTORE)")
+	await typew.edit("`DANA : `085967280633` A/N 𝗚𝗨𝗡𝗔𝗗𝗜` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#B𝗮𝗻𝗴𝗔𝗚𝗨𝗡Bot](t.me/GARAGASTORE)")
 
 
 # Create by myself @JejakCheat
