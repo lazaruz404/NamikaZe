@@ -198,7 +198,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     output = ("┏━━━━━━━━━━━━━━━━━━━━━━━\n"
-              f"┣[`Bot Telah Aktif, Gunakan Dgn Bijak`\n"
+              f"┣[`Bot Sudah Aktif Master🙇🙇`\n"
               f"┣━━━━━━━━━━━━━━━━━━━━━━━\n"
               f"┣[ 👤 `Name     : {DEFAULTUSER} `\n"
               f"┣[ 👁‍🗨 `Creator  : @Abucuyy `\n"
@@ -208,6 +208,7 @@ async def amireallyalive(alive):
               f"┣━━━━━━━━━━━━━━━━━━━━━━━\n"
               f"┣[ 💻 `Running  : {repo.active_branch.name} `\n"
               f"┣[ 🗃 `Modules  : {len(modules)} `\n"
+              f"┣[ 👁‍🗨 `PEMILIK  : @Abucuyy`\n"
               f"┗━━━━━━━━━━━━━━━━━━━━━━━\n")
     if ALIVE_LOGO:
         logo = ALIVE_LOGO
