@@ -208,7 +208,7 @@ async def amireallyalive(alive):
               f"┣━━━━━━━━━━━━━━━━━━━━━━━\n"
               f"┣[ 💻 `Running  : {repo.active_branch.name} `\n"
               f"┣[ 🗃 `Modules  : {len(modules)} `\n"
-              f"┣[ 👁‍🗨 `PEMILIK  : @Abucuyy`\n"
+              f"┣[ 👁‍🗨 `PEMILIK  : ABU엽다 `\n"
               f"┗━━━━━━━━━━━━━━━━━━━━━━━\n")
     if ALIVE_LOGO:
         logo = ALIVE_LOGO
