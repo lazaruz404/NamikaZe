@@ -36,6 +36,50 @@ async def typewriter(typew):
 			 f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
 			 f"PM @Lazaruzs")
 
+@register(outgoing=True, pattern='^.data(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("+===================================+\n"
+			 f"|                          INFO WEB                           |\n"
+			 f"\n"
+			 f"+===================================+\n"
+			 f"| Domain:\n"
+			 f"| Ip:\n"
+			 f"| HasCgi: y\n"
+			 f"| UserName: \n"
+			 f"| PassWord: \n"
+			 f"| Email:\n"
+			 f"| Garansi: \n"
+			 f"| Registered ON: 00/10/2020\n"
+			 f"| Expired ON: 00/11/2020\n"
+			 f"| Tampilan: 0\n"
+			 f"+===================================+\n"
+			 f"|                       TERIMA KASIH                        |\n"
+			 f"+===================================+\n"
+			 f"INFO:\n"
+			 f"HARAP JANGAN HAPUS PESAN INI ATAU GARANSI & WEB KAMU DINYATAKAN HILANG!!\n"
+			 f"\n"
+			 f"\n"
+			 f"SETELAH MENDEKATI EXPIRED AGAR KONFIRMASI JIKA INGIN DI PERPANJANG ATAU WEB TERSUSPEND OTOMATIS\n"
+			 f"\n"
+			 f"\n"
+			 f"FOLLOW UNTUK MENGETAHUI INFORMASI TERKAIT WEB DSB:\n"
+			 f"@LazaruzGroup\n"
+			 f"@LazaruzStore")
+
+@register(outgoing=True, pattern='^.tes(?: |$)(.*)')
+async def typewriter(typew):
+	message = typew.pattern_match.group(0)
+	sleep(0)
+	await typew.edit("WEBMU SUDAH JADI, JANGAN LUPA CEK DAN TES MAIL YA\n"
+			 f"\n"
+			 f"JIKA ADA KESALAHAN EMAIL ADMIN TIDAK BERTANGGUNG JAWAB YA\n"
+			 f"\n"
+			 f"CARA AKSES CPANEL DENGAN KETIK & EDIT TULISAN DIBAWAH INI DI BROWSER KAMU:\n"
+			 f"https://gantidomainmu.com:2083 atau https://gantidomainmu.com/cpanel\n"
+			 f"\n"
+			 f"TERIMAKASIH TELAH ORDER")
 
 @register(outgoing=True, pattern='^.unredflag(?: |$)(.*)')
 async def typewriter(typew):
