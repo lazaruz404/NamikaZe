@@ -303,15 +303,6 @@ async def typewriter(typew):
 	sleep(0)
 	await typew.edit("`DANA : `085692935611 `A/N SAHRU RAHMADHAN` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \nBot By : [#LazaBot](t.me/Lazaruzs)")
 
-
-# Create by myself @JejakCheat
-@register(outgoing=True, pattern='^.data(?: |$)(.*)')
-async def typewriter(typew):
-	message = typew.pattern_match.group(0)
-	sleep(0)
-	await typew.edit("`Kirim Email + Tampilan yang sudah di request di atas` (Sesuai nama di @DemoScript) \nBot By : [#LazaBot](t.me/Lazaruzs)")
-
-
 # Create by myself @JejakCheat
 @register(outgoing=True, pattern='^.harga(?: |$)(.*)')
 async def typewriter(typew):
