@@ -11,14 +11,7 @@ async def typewriter(typew):
 	sleep(0)
 	await typew.edit("**PRICE LIST** **LAZARUZ STORE**\n"
 			 f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
-			 f"WEB P SUBDOMAIN PREMIUM\n"
-			 f"\n"
-			 f"SUBDOMAIN 0× Garansi - 20.000 \n"
-			 f"SUBDOMAIN 1× Garansi - 30.000 \n"
-			 f"SUBDOMAIN 3× Garansi - 50.000 \n"
-			 f"*❗️GARANSI JIKA RF/RedFlag\n"
-			 f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
-			 f"DOMAIN TLD .COM .NET .ORG\n"
+			 f"DOMAIN TLD .COM .NET .ORG .IN"
 			 f"\n"
 			 f"REQUEST - NO GARANSI: 100.000\n"
 			 f"REQUEST - GARANSI 1 BULAN: 170.000\n"
@@ -26,13 +19,16 @@ async def typewriter(typew):
 			 f"NO REQUEST - GARANSI: 130.000\n"
 			 f"❗️GARANSI JIKA RF/RedFlag\n"
 			 f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
+			 f"DOMAIN KOSONGAN AKSES CLOUDFLARE\n"
+			 f"\n"
+			 f"5 DOMAIN KEATAS 50K/DOMAIN\n"
+			 f"10 DOMAIN KEATAS 40K/DOMAIN\n"
+			 f"\n"
+			 f"❗️TIDAK TERMASUK CPANEL $ SC\n"
+			 f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
 			 f"READY MWHM-WHM-CPANEL\n"
 			 f"\n"
-			 f"FITUR SERVER LAZAHOST\n"
-			 f"-Send Mail Menggunakan SENDGRID 🚀\n"
-			 f"-AUTO SSL (Otomatis Gembok Ijo🔒\n"
-			 f"-Web Service Menggunakan LITESPEED\n"
-			 f"-Result Masuk di Email Utama (tidak di spam)\n"
+			 f"TAMPILAN SC BISA CEK @DemoScript\n"
 			 f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
 			 f"PM @Lazaruzs")
 
@@ -81,7 +77,7 @@ async def typewriter(typew):
 			 f"\n"
 			 f"TERIMAKASIH TELAH ORDER")
 
-@register(outgoing=True, pattern='^.unredflag(?: |$)(.*)')
+@register(outgoing=True, pattern='^.rf?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
@@ -293,7 +289,7 @@ async def typewriter(typew):
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
-	await typew.edit("`BCA : `3030634780 `A/N Sutri nanda` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n[#LazaBot](t.me/Lazaruzs)")
+	await typew.edit("`BCA : `0 `A/N 0` \nSertakan Bukti Transfer Ya (Wajib) Untuk melanjutkan transaksi \n[#LazaBot](t.me/Lazaruzs)")
 
 
 # Create by myself @JejakCheat
