@@ -11,7 +11,7 @@ async def typewriter(typew):
 	sleep(0)
 	await typew.edit("**PRICE LIST** **LAZARUZ STORE**\n"
 			 f"━━━━━━━━━━━━━━━━━━━━━━━━\n"
-			 f"DOMAIN TLD .COM .NET .ORG .IN"
+			 f"DOMAIN TLD .COM .NET .ORG .IN\n"
 			 f"\n"
 			 f"REQUEST - NO GARANSI: 100.000\n"
 			 f"REQUEST - GARANSI 1 BULAN: 170.000\n"
@@ -77,7 +77,7 @@ async def typewriter(typew):
 			 f"\n"
 			 f"TERIMAKASIH TELAH ORDER")
 
-@register(outgoing=True, pattern='^.rf?: |$)(.*)')
+@register(outgoing=True, pattern='^.unredflag?: |$)(.*)')
 async def typewriter(typew):
 	message = typew.pattern_match.group(0)
 	sleep(0)
